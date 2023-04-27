@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | News homepage</title>
+  <link rel="stylesheet" href="css/app.css">
+
+</head>
+<body class="ff-1 bg-white">
+
+  
+  <header>
+   <div class="container">
+    <nav class="flex jc-space-between ai-center p-t-23 on-sm-p-t-7 ">
+      <a href="" >
+        <img src="assets/images/logo.svg" id="logo" alt="Logo">
+      </a>
+
+      <ul class="links flex col-gap-11 on-sm-hide">
+        <li class="link">
+          <a href="#" class="dark-blue-text">Home</a>
+        </li>
+        <li class="link">
+          <a href="#" class="dark-blue-text">New</a>
+        </li>
+        <li class="link">
+          <a href="#" class="dark-blue-text">Popular</a>
+        </li>
+        <li class="link">
+          <a href="#" class="dark-blue-text">Trending</a>
+        </li>
+        <li class="link">
+          <a href="#" class="dark-blue-text">Categories</a>
+        </li>
+      </ul>
+
+      
+
+      <button class="btn-menu hide on-sm-block" data-menu="menu1">
+        <img src="assets/images/icon-menu.svg" alt="Menu">
+      </button>
+    </nav>
+   </div>
+
+  </header>
+
+  <div class="mobile-menu hide on-sm-flex width-100 jc-end " id="menu1">
+      <div class="mobile-menu-content width-70 bg-white flex end flex-col row-gap-24 ai-end p-x-4 p-l-6 p-t-7">
+        <button class="btn-menu">
+          <img src="assets/images/icon-menu-close.svg" alt="Menu Close">
+        </button>
+  
+        <ul class="flex flex-col row-gap-10">
+          <li class="link">
+            <a href="#" class="very-dark-blue-text fs-6">Home</a>
+          </li>
+          <li class="link">
+            <a href="#" class="very-dark-blue-text fs-6">New</a>
+          </li>
+          <li class="link">
+            <a href="#" class="very-dark-blue-text fs-6">Popular</a>
+          </li>
+          <li class="link">
+            <a href="#" class="very-dark-blue-text fs-6">Trending</a>
+          </li>
+          <li class="link">
+            <a href="#" class="very-dark-blue-text fs-6">Categories</a>
+          </li>
+        </ul>
+      </div>
+  </div>
+
+  <main>
+    <div class="container intro col-gap-11 m-t-15 on-sm-m-t-8 m-b-10 on-sm-row-gap-17">
+      <div class="left ">
+        <div class="top">
+          <img src="assets/images/image-web-3-desktop.jpg" alt="Web 3" class="on-sm-hide">
+          <img src="assets/images/image-web-3-desktop.jpg" alt="Web 3" class="hide on-sm-block">
+        </div>
+        <div class="bottom flex on-md-flex-col m-t-11 on-sm-m-t-8 col-gap-11 on-sm-row-gap-7">
+          <div class="title">
+            <h1 class="very-dark-blue-text fs-14 on-sm-fs-13 fw-800 on-md-fs-13">The Bright Future of Web 3.0?</h1>
+          </div>
+          <div class="description">
+            <p class="m-b-12 on-sm-m-b-8 ">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+              But is it really fulfilling its promise?</p>
+              <a href="#" class="btn uppercase fw-500">Read more</a>
+          </div>
+        </div>
+      </div>
+      <div class="right bg-very-dark-blue white-text p-x-7 p-y-11 p-b-0">
+        <h1 class="title soft-orange-text ">New</h1>
+        <div class="news">
+
+          <div class="new p-y-7">
+            <h2 class="new-title m-b-3">Hydrogen VS Electric Cars</h2>
+            <p class="new-text grayish-blue-text ">Will hydrogen-fueled cars ever catch up to EVs?</p>
+          </div>
+
+          <div class="new p-y-7">
+            <h2 class="new-title m-b-3">The Downsides of AI Artistry</h2>
+            <p class="new-text grayish-blue-text">What are the possible adverse effects of on-demand AI image generation?</p>
+          </div>
+
+          <div class="new p-y-7">
+            <h2 class="new-title m-b-3">Is VC Funding Drying Up?</h2>
+            <p class="new-text grayish-blue-text 5">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="features flex on-md-flex-col col-gap-11 on-md-row-gap-9  m-t-19 ">
+
+        <div class="feature flex col-gap-7">
+          <div class="feature-img">
+            <img src="assets/images/image-retro-pcs.jpg" alt="">
+          </div>
+          <div class="feature-description">
+            <h2 class="grayish-blue-text m-b-2">01</h2>
+            <h3 class="very-dark-blue-text m-b-2">Reviving Retro PCs</h3>
+            <p class="dark-blue-text ">What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </div>
+
+        <div class="feature flex col-gap-7">
+          <div class="feature-img">
+            <img src="assets/images/image-top-laptops.jpg" alt="">
+          </div>
+          <div class="feature-description">
+            <h2 class="grayish-blue-text m-b-2">02</h2>
+            <h3 class="very-dark-blue-text m-b-2">Top 10 Laptops of 2022</h3>
+            <p class="dark-blue-text ">Our best picks for various needs and budgets.</p>
+          </div>
+        </div>
+
+        <div class="feature flex col-gap-7">
+          <div class="feature-img">
+            <img src="assets/images/image-gaming-growth.jpg" alt="">
+          </div>
+          <div class="feature-description">
+            <h2 class="grayish-blue-text m-b-2">03</h2>
+            <h3 class="very-dark-blue-text m-b-2">The Growth of Gaming</h3>
+            <p class="dark-blue-text ">How the pandemic has sparked fresh opportunities.</p>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+   
+  </main>
+
+
+  <script> 
+    window.addEventListener('load' , ()=>{
+      const btnMenu = document.querySelector('nav .btn-menu');
+      const btnMenuClose = document.querySelector('.mobile-menu .btn-menu');
+
+      btnMenuClose.addEventListener('click' , ()=>{
+        document.body.classList.remove('mobile-menu-visible');
+      });
+      btnMenu.addEventListener('click' , ()=>{
+        document.body.classList.add('mobile-menu-visible');
+      });
+    });
+  </script>
+</body>
+</html>
